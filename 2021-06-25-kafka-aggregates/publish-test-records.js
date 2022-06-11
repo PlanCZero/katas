@@ -52,21 +52,21 @@ const publishTestRecords = ({ schema, generateEntity, topic }) => {
   });
 };
 
-const userSchema = {
-  type: "record",
-  name: "User",
-  namespace: "examples",
-  fields: [
-    { type: "int", name: "id" },
-    { type: "string", name: "name" },
-  ],
-};
+// const userSchema = {
+//   type: "record",
+//   name: "User",
+//   namespace: "examples",
+//   fields: [
+//     { type: "int", name: "id" },
+//     { type: "string", name: "name" },
+//   ],
+// };
 
-publishTestRecords({
-  generateEntity: generateUser,
-  schema: userSchema,
-  topic: "users",
-});
+// publishTestRecords({
+//   generateEntity: generateUser,
+//   schema: userSchema,
+//   topic: "users",
+// });
 
 const postSchema = {
   type: "record",

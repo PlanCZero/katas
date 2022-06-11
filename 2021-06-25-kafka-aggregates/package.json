@@ -9,6 +9,7 @@
     "faker": "^5.5.3",
     "kafka-streams": "^5.0.0",
     "kafkajs": "^1.15.0",
+    "node-rdkafka": "^2.13.0",
     "pg": "^8.6.0"
   }
 }

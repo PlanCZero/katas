@@ -18,7 +18,7 @@ const generatePost = () => {
   return {
     id: faker.random.arrayElement(postIds),
     authorId: faker.random.arrayElement(userIds),
-    content: faker.random.words(100)+" fruit",
+    content: faker.random.words(100)+" someField",
   };
 };
 
